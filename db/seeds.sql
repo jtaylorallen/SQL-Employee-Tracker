@@ -1,3 +1,23 @@
+INSERT INTO department (id, name)
+VALUES 
+  (1, 'Admin'),
+  (2,'Teacher'),
+  (3,'Staff');
+  
+
+INSERT INTO role (id, department_id, title, salary) 
+VALUES
+  (1, 1, 'Principal', 100000),
+  (2, 1, 'Assistant Principal', 89000),
+  (3, 2, 'Kinder-Teacher', 55000),
+  (4, 2, 'First-Teacher', 55000),
+  (5, 2, 'Second-Teacher', 55000);
+  (6, 2, 'Third-Teacher', 55000);
+  (7, 2, 'Forth-Taecher', 55000);
+  (8, 2, 'Fifth-Teacher', 55000);
+  (9, 3, 'Counselor', 35000),
+  (10, 3, 'Nurse', 51000),
+  (11, 3, 'Secretary', 31000),
 
 
 INSERT INTO employees 
